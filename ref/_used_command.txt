@@ -1,0 +1,36 @@
+----------------------------------------
+    start app command
+----------------------------------------
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask run
+----------------------------------------
+    start for the first one app command
+----------------------------------------
+
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask init-db
+flask run
+
+----------------------------------------
+    activate venv command
+----------------------------------------
+. env/bin/activate
+----------------------------------------
+    creat venv command
+----------------------------------------
+python3 -m venv env
+
+------------------------------------
+    init-db (python venv)
+----------------------------------
+import flaskr.models
+from flaskr.database import Base
+from flaskr.database import engine
+Base.metadata.create_all(bind=engine)
+
+from flaskr.database import init_db
+init_db()
+
+

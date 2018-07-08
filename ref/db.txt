@@ -1,7 +1,14 @@
 python migrate.py db init
-   [The script init db and generated a new migrations sub-folder within 
-   the folder with a versions subfolder and many other files.]
 
 python migrate.py db migrate
 
 python migrate.py db upgrade
+
+
+
+
+
+
+python migrate.py db init
+   [The script init db and generated a new migrations sub-folder within 
+   the folder with a versions subfolder and many other files.]

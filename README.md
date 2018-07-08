@@ -1,5 +1,5 @@
 # flask restfull api example
-## an of web service made with 
+## an of web service made in single file only with 
 - flask
 - marshmallow
 - flask_sqlalchemy 
